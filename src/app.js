@@ -10,7 +10,7 @@ const launchesRouter = require("./routes/launches/launches.router");
 const app = express();
 
 app.use(cors({
-    origin: 'http://localhost:3001'
+    origin: 'http://localhost:3000'
 }))
 // Morgan used for logging request to console or file...
 app.use(morgan('combined'))
